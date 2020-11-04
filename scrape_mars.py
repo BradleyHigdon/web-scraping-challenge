@@ -59,15 +59,13 @@ def scrape():
 
 
 
-mars_data ={
+mars_data = {
 		'news_title' : NASA_news_title,
 		'summary': NASA_news_para,
         'featured_image': JPL_feature_url,
 		'featured_image_title': JPL_mars_web,
         'news_url': news_url,
 		'fact_table': mars_web,
-		'hemisphere_image_urls': hemisphere_image_urls,
-        'jpl_url': jurl,
-        'hemisphere_url': urls_of_hemisphere_images
+		'hemispheres_image_urls': hemispheres_image_urls,
+        'hemispheres_url': urls_of_hemisphere_images
         }
-    db = mars_data
